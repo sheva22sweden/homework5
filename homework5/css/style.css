@@ -21,6 +21,8 @@ body {
     font-family:' Helvetica Neue', Tahoma, sans-serif;
     font-size: 14px;
     box-sizing: border-box;
+    background: url(../image/background.jpeg) no-repeat;
+    background-size: cover;
 }
 
 h1 {
@@ -33,18 +35,10 @@ span {
     border-bottom: 2px solid #9ac1e4;
 }
 
-.container {
-    width: 1215px;
-    margin: 0 auto;
-}
-
 /*style for menu*/
-header {
-    max-width: 1215px;
-}
 
 .menu {
-    width: 1215px;
+    width: 100%;
     background-color: #074c89;
 }
 
@@ -109,9 +103,7 @@ a:last-child {
 /*style for wrap*/
 .content {
     width: 100%;
-    padding:216px 302px 182px 353px;
-    background: url(../image/background.jpeg) no-repeat;
-    background-size: content;     
+    padding:216px 302px 182px 353px;  
 }
 .wrap {
     width: 562px;
@@ -174,7 +166,7 @@ input[type="checkbox"] {
 input[type="checkbox"]:hover {
     box-shadow:none; 
 }
-input:hover {
+input:focus {
     background-color: #1b5288;
     box-shadow: 0 0 15px 4px rgba(76, 137, 178, 1);
 }
