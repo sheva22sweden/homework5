@@ -1,0 +1,26 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+table{
+	border-spacing: 0;
+	border-collapse: collapse;
+	width: 500px;
+	height: 540px;
+}
+td{
+	border: 11px solid #000; 
+	
+}
+.yellow{
+	background-color: yellow;
+}
+.red{
+	background-color: red;
+}
+.blue{
+	background-color: blue;
+}
+.black{
+	background-color: black;
+}
